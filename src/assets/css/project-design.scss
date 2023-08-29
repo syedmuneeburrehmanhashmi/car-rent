@@ -1,6 +1,10 @@
 /* Color variables */
 
 :root {
+  /* Primary background */
+  --primary-background: #F6F7F9;
+  --secondary-background: #FFFFFF;
+
   /* Primary Palette */
   --primary-0: #FFFFFF;
   --primary-100: #D6E4FD;
@@ -67,6 +71,10 @@
   --info-700: #2A60B7;
   --info-800: #1A4393;
   --info-900: #102E7A;
+}
+
+body {
+  background-color: var(--primary-background);
 }
 
 @mixin text-regular {
