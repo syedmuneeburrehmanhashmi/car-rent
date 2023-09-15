@@ -1,0 +1,55 @@
+:host {
+    display: block;
+    padding: 5rem 3rem 3.75rem;
+    background-color: var(--primary-0);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+
+    .logo-title {
+        width: 100%;
+        max-width: 18.25rem;
+    }
+    .menu-container {
+        .menu-title {
+            color: var(--secondary-500);
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            letter-spacing: -0.025rem;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+            color: rgba(19, 19, 19, 0.60);
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 2.5rem;
+            letter-spacing: -0.02rem;
+        }
+    }
+    .privacy-policy-wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .hr-wrapper {
+        width: 100%;
+        padding: 2.75rem 0;
+    }
+    .last-row-text {
+        color: var(--secondary-500, #1A202C);
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5rem;
+        letter-spacing: -0.02rem;
+    }
+}
